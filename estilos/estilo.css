@@ -1,0 +1,284 @@
+.fundo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(219, 205, 205)
+}
+
+.header{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.osh1{
+    font-size: 20px;
+    color: rgb(61, 53, 53);
+    font-weight: bold;
+    text-align: center;
+}
+
+.osp{
+    font-size: 20px;
+    color: rgb(68, 61, 61);
+    font-size: medium;
+    text-align: left;
+}
+
+.tabela{
+    display: inline-block; 
+    margin-left: 20px  
+}
+
+.ponto{
+    color: rgb(68, 61, 61);
+    text-align: left;
+}
+
+#imagemp{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.div{
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#funcdes{
+    background: rgb(132, 132, 158);
+    color: #000000;
+    margin-top: 20px;
+}
+
+#nem{
+    text-align: left;
+}
+
+#form{
+    text-align: left;
+}
+
+#imagens{
+    width: 400px;
+    border-radius: 10px;
+}
+
+#listgerar{
+    text-align: left;
+    color: rgb(61, 53, 53);
+    font-weight: bold;
+}
+
+#text{
+    padding: 20px;
+}
+
+#caixinha{
+    width: 200px;      
+    padding: 8px;       
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#caixinha:hover{
+    background-color: #23232e;
+    color: white;
+}
+
+#buttom{
+    width: 70px;
+    background-color: white;
+}
+
+#buttom:hover{
+    background-color: rgb(177, 159, 159);
+}
+
+#buttom:active{
+    color: white;
+    background-color: #23232e;
+}
+
+.principaltab{
+    border-collapse: collapse;
+    background: rgb(132, 132, 158);
+}
+
+#btn-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4a4a9e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    z-index: 999;
+}
+
+.link{
+    display: inline-block;
+    font-size: 17px;
+    color: rgb(66, 66, 146);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.link:hover{
+    color: rgb(3, 3, 185);
+    text-decoration: underline;
+}
+    
+.link:active{
+    color: rgb(212, 16, 16);
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    
+}   
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #23232e;
+    height: 13vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+nav a {
+    color: rgb(235, 226, 226);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+nav a:hover{
+    color: rgb(196, 167, 167);
+    text-decoration: underline;
+}
+
+nav a:active{
+    color: rgb(131, 99, 99);
+}
+
+#tdFD{
+    font-size: 17px;
+    color: rgb(61, 53, 53);
+    font-weight: bold;
+    text-align: center;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+}
+
+.card{
+    background-color: rgb(250, 244, 244);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    white-space: normal;
+    word-wrap: break-word;   
+    overflow-wrap: break-word;
+}
+
+.card img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.data{
+    font-size: 0.9em;
+    color: #666;
+    margin: 8px 0;
+}
+
+.descricao {
+    font-size: 1em;
+    color: #333;
+}
+
+#container{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 310px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.campo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+  
+label{
+    width: 80px; /* alinha os textos */
+    text-align: right;
+}
+
+.sobre-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+.texto-sobre{
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.imagem-sobre img{
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px){
+    .sobre-container {
+      grid-template-columns: 1fr; /* 1 coluna em telas pequenas */
+      text-align: center;
+    }
+}
+
+#formid{
+    color: #23232e;
+}
